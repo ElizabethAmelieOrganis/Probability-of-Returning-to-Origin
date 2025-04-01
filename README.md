@@ -1,2 +1,43 @@
-# Probability-of-Returning-to-Origin
-Investigate the probability of a point randomly moving back to the starting point in n-dimensional space
+# n维随机游走模拟
+
+## 项目简介
+这是一个用于模拟n维随机游走的Python项目。随机游走是一种数学模型，用于描述在随机过程中粒子的运动轨迹。目前已经完成了一维和二维情况下的模拟
+
+## 功能
+
+- 模拟n维随机游走
+- 计算粒子回到原点的概率
+- 绘制概率随步数变化的图表
+
+## 安装
+
+### 克隆仓库
+
+```bash
+git clone https://github.com/yourusername/one-dimensional-random-walk.git
+cd one-dimensional-random-walk
+
+#确保已安装Python 3.6或更高版本。然后运行以下命令安装所需的依赖项：pip install -r requirements.txt
+
+#使用方法
+运行模拟
+运行以下命令来执行模拟并生成概率图：
+python one_dimensional_random_walk.py
+
+#调整参数
+你可以在代码中调整以下参数：
+num_simulations: 模拟次数（默认为1000次）
+max_steps: 每次模拟的最大步数（默认为1000步）
+
+
+### 说明
+
+- **项目简介**：简要介绍项目的目的和内容。
+- **功能**：列出项目的主要功能。
+- **安装**：提供克隆仓库和安装依赖的步骤。
+- **使用方法**：说明如何运行代码和调整参数。
+- **代码结构**：描述项目文件的组织结构。
+- **示例输出**：展示程序运行后的预期输出。
+- **贡献**：鼓励其他开发者贡献代码，并提供贡献指南。
+- **许可证**：说明项目的许可证类型。
+
